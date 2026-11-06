@@ -1,0 +1,13 @@
+{
+  "scope": "Exact all-open relocation and one-day coverage tradeoff; no gameplay change.",
+  "structuralCases": 3600,
+  "economicCases": 6480,
+  "structuralInputsSha256": "2bb708d2f3345262ee7e96f6bec74ae406d976d68c9e361f4ac503b2fca181fa",
+  "economicInputsSha256": "bc9b46c5b0978e8841fc17f02622df8408c4300a723b01df83b3f2d9626efe6d",
+  "sourcePins": {
+    "tests/structural-v3.py": "c8836deada0f894ece4e8513049cb8b6c0652afa0cb121c6ab42c9ef5d3749c8",
+    "STRUCTURAL_CHECK_V3_CONTRACT.md": "3ad9305bf187e4397a4e2cf6676bd380b4c8dae279ef70ce495bee5d81181050",
+    "core.js": "267ee92934874296713becfb19311699248ab0fc492baac9a86965a207da1071",
+    "RULES_V3.md": "13449b314ac399c95de1ecc78e694c98700a3c81de42656166237f3c355c4ade"
+  }
+}

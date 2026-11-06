@@ -1,0 +1,17 @@
+✔ zero cash and three closed stalls can recover production without debt (71.2779ms)
+✔ closed stalls cannot generate repeat claims and still need repair funds (0.57371ms)
+✔ invalid actions leave input unchanged and spending is bounded (5.440137ms)
+✔ planning cannot produce unlimited actions or reuse a committed market (0.813006ms)
+✔ insurance boundaries, exclusions and premiums are explicit (1.896517ms)
+✔ preview depends only on current public inputs and is immutable (0.5978ms)
+✔ six-day sequence is deterministic, has exact cash trails and terminates (24.443445ms)
+✔ event sequence is independent of planning actions (1.881802ms)
+✔ seed validation and unavailable operations fail clearly (0.506855ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1114.900525

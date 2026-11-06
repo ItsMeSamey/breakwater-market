@@ -1,0 +1,9 @@
+{
+  "core.js": "46aa0312ddf78f8aff28fb4b79c5d16002a354eeefa7ce7298ff16f810c171db",
+  "game.js": "39cde2015ecf52ba7eae79f31b04e9698f58d34cff5113b94f605e1c6b62d7e5",
+  "index.html": "ac45463ae524444141db6c78d5a11526617297bea38c601513a5005e81c2ca57",
+  "style.css": "b7b5b72421ad8fd084a4c63ecf480d2551b4ba675b36e6923da1ea1ecb29207b",
+  "tests/core.test.cjs": "699fad467125b855294b95db7ab6466f593675a29309b1f9d9c19f0494746eca",
+  "tests/gameplay-diagnostic.cjs": "557bb9d07ad68acfcfed5505683ba2269e8ba60cc6bc69c6cbd473e3967195e7",
+  "GAMEPLAY_DIAGNOSTIC_FREEZE.md": "d6740d3328136eb6262b7ea182257407c9704a55e1cdbfeabf1ac2f74a9fa1aa"
+}

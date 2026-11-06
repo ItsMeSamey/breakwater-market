@@ -1,0 +1,22 @@
+{
+  "RULES_FREEZE.md": {
+    "bytes": 2790,
+    "sha256": "1375bd30337f71b3a8ea61fc0ba8d925797c6c50f2af6d7452408c404e7183fc"
+  },
+  "RULES_PRE_RUN_REVISION.md": {
+    "bytes": 1568,
+    "sha256": "5aad04b9d164b3fe1be42b57efe4cf1605d7abc50dcaec368771fc18fabcef1d"
+  },
+  "RULES_V2.md": {
+    "bytes": 2576,
+    "sha256": "7c479a844813e463f9c71499233a04501f9fb51a65ce7e6e0fc3c563dfe07b70"
+  },
+  "SOURCE_NOTES.md": {
+    "bytes": 3575,
+    "sha256": "9dfced669e70bb99ee7efc2db0b427322469cb641946322b555babe570552759"
+  },
+  "index.html": {
+    "bytes": 36957,
+    "sha256": "e9121b7aef637e6f6d146ca35e2bd3af3c90abc9f0178119247a3b790511efa5"
+  }
+}

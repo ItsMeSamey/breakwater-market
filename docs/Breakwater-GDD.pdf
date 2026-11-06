@@ -1,0 +1,434 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 3 /Kids [5 0 R 7 0 R 9 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3460 >>
+stream
+BT
+14 TL
+54 780 Td
+/F2 11 Tf
+(Breakwater Market) Tj
+T*
+/F2 11 Tf
+(Game design document, prototype v3) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Prepared November 6, 2026. A six-day, turn-based harbor game for one player. The) Tj
+T*
+/F1 10 Tf
+(prototype is a downloadable HTML game that runs locally with embedded styles and) Tj
+T*
+/F1 10 Tf
+(scripts.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(The loop) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Three stalls share six berths. Waterfront sales are higher, but a surge can strike an) Tj
+T*
+/F1 10 Tf
+(entire quay. A cable fault crosses both quays in one lane. Each day, the player sees) Tj
+T*
+/F1 10 Tf
+(four equally likely event tickets, moves or reopens stalls, chooses insurance or keeps) Tj
+T*
+/F1 10 Tf
+(cash, then opens the market. The incident happens before sales. The player decides which) Tj
+T*
+/F1 10 Tf
+(damaged stalls to reopen, collects sales, pays operating supplies, and prepares for the) Tj
+T*
+/F1 10 Tf
+(next day.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(The goal is to finish day six with all three stalls open and at least 18 coins for) Tj
+T*
+/F1 10 Tf
+(lantern night. Progress is measured by coins and operating stalls.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Decisions and consequences) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Moving costs one coin and one of two planning actions. A safer berth may earn less or) Tj
+T*
+/F1 10 Tf
+(lose the day's high-demand bonus. Scheduled reopening costs three coins and one action) Tj
+T*
+/F1 10 Tf
+(but exposes the stall to today's incident. Emergency reopening after the incident costs) Tj
+T*
+/F1 10 Tf
+(four coins. A player with every stall closed can take one rescue job per day for four) Tj
+T*
+/F1 10 Tf
+(coins and one action, including at zero cash.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Surge and cable-fault cover each cost two coins for one day. Only the named incident is) Tj
+T*
+/F1 10 Tf
+(covered. The claim is max\(0, new covered repair bill minus two coins\), capped at six) Tj
+T*
+/F1 10 Tf
+(coins. Old damage creates no new claim. Payment is immediate in the simplified game. A) Tj
+T*
+/F1 10 Tf
+(calm day still costs the premium.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Each open stall sells three coins on the waterfront or two in the garden, plus one at) Tj
+T*
+/F1 10 Tf
+(the visible high-demand berth. One coin of supplies is deducted from each open stall's) Tj
+T*
+/F1 10 Tf
+(sales. Closed stalls have no sales or supply cost. No borrowing or negative balance is) Tj
+T*
+/F1 10 Tf
+(required.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(The game distinguishes accessible cash from expected earnings. A group of stalls can) Tj
+T*
+/F1 10 Tf
+(have the same average damage as independent risks while having a different chance of a) Tj
+T*
+/F1 10 Tf
+(simultaneous repair shortage. The live preview enumerates the actual joint events. It) Tj
+T*
+/F1 10 Tf
+(does not reveal which ticket will be drawn or choose a move for the player. A zero) Tj
+T*
+/F1 10 Tf
+(repair-funding risk does not guarantee enough money for lantern night.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Replay and variation) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(A seed generates six public forecasts, high-demand locations and event draws. Event) Tj
+T*
+/F1 10 Tf
+(draws are independent of the player's actions. Replaying a seed repeats those draws,) Tj
+T*
+/F1 10 Tf
+(allowing a different placement or policy choice to be compared with the same events. A) Tj
+T*
+ET
+BT /F1 9 Tf 54 38 Td (Breakwater Market | Page 1 of 3) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 3755 >>
+stream
+BT
+14 TL
+54 780 Td
+/F1 10 Tf
+(new seed changes the week. A week is a short solo experiment.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Presentation and controls) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(The harbor board is the main interaction surface. Original CSS stall shapes, quay) Tj
+T*
+/F1 10 Tf
+(colors, stripes, text labels and visible damage indicators show position and exposure.) Tj
+T*
+/F1 10 Tf
+(Color is never the sole signal. A compact resource display and primary turn action sit) Tj
+T*
+/F1 10 Tf
+(beside the decisions. The event reveal explains the premium, claim, repair cost and) Tj
+T*
+/F1 10 Tf
+(remaining cash. The cash trail includes planning actions, gross sales, supplies and net) Tj
+T*
+/F1 10 Tf
+(receipts.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Real buttons support Tab, Enter and Space. Phase changes move focus to the event, next) Tj
+T*
+/F1 10 Tf
+(day or ending. Reduced-motion settings suppress the reveal animation. The narrow layout) Tj
+T*
+/F1 10 Tf
+(preserves the three-column harbor geometry and wraps labels. There is no drag-only) Tj
+T*
+/F1 10 Tf
+(interaction, audio requirement or timed input. A no-script/loading fallback explains how) Tj
+T*
+/F1 10 Tf
+(to keep the local files together. A restart dialog validates seeds before replacing a) Tj
+T*
+/F1 10 Tf
+(game.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Implemented technical evidence) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(An independently written reference checked 6,360 fixed current-round cases plus) Tj
+T*
+/F1 10 Tf
+(closed-stall, symmetry, affordability, probability-mass and future-information controls.) Tj
+T*
+/F1 10 Tf
+(The exact preview had zero shortfall-probability error. Removing cross-stall dependence) Tj
+T*
+/F1 10 Tf
+(while preserving individual risk produced 4.065 percentage points mean absolute error) Tj
+T*
+/F1 10 Tf
+(and 32.8125 points maximum error. This comparison removes dependence from our own model;) Tj
+T*
+/F1 10 Tf
+(the full method and scope are in VERIFICATION.md.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Twelve core integration tests cover recovery at zero cash, action budgets, scheduled) Tj
+T*
+/F1 10 Tf
+(versus emergency repairs, once-daily rescue, claims, accounting, deterministic replay) Tj
+T*
+/F1 10 Tf
+(and operating supplies. The unchanged preview function is explicitly bound to the) Tj
+T*
+/F1 10 Tf
+(earlier independent result.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Automated causal policies were also tested. The earlier economy was too forgiving: all) Tj
+T*
+/F1 10 Tf
+(120 test games won and all stalls reopened every day. Version 3 adds the disclosed) Tj
+T*
+/F1 10 Tf
+(operating-supply cost. On 40 fresh weeks, the two moving policies each won 38 goals; the) Tj
+T*
+/F1 10 Tf
+(fixed-berth variant won 33. The moving policies still made identical decisions and) Tj
+T*
+/F1 10 Tf
+(rarely faced liquidity shortages. Their one-day objectives do not optimize final-goal) Tj
+T*
+/F1 10 Tf
+(probability. These tests identify economic consequences and weaknesses to examine in) Tj
+T*
+/F1 10 Tf
+(playtesting.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(An exact structural check found real reasons to buy cover despite easy relocation.) Tj
+T*
+/F1 10 Tf
+(Moving can sacrifice earnings. In one valid final-day illustration, cover reduced) Tj
+T*
+/F1 10 Tf
+(expected cash from 22 to 21.5 while increasing the probability of funding lantern night) Tj
+T*
+/F1 10 Tf
+(from 75% to 100%. The illustration uses a valid state whose reachable play history) Tj
+T*
+/F1 10 Tf
+(remains unverified.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Actual original-browser play completed all six days, seed restart and zero-cash) Tj
+T*
+/F1 10 Tf
+(recovery. Narrow-layout and keyboard observations are documented separately in) Tj
+T*
+ET
+BT /F1 9 Tf 54 38 Td (Breakwater Market | Page 2 of 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1872 >>
+stream
+BT
+14 TL
+54 780 Td
+/F1 10 Tf
+(VERIFICATION.md. Human playtesting and assistive-technology review remain future work.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Scope and possible later work) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Completed scope is the six-day local prototype, deterministic rules, readable cash) Tj
+T*
+/F1 10 Tf
+(trail, risk preview and reproducible tests. Possible later work includes volunteer) Tj
+T*
+/F1 10 Tf
+(playtesting, clearer onboarding based on observed confusion, translation reviewed by) Tj
+T*
+/F1 10 Tf
+(fluent speakers, more varied public incident structures, and a goal-aware comparison) Tj
+T*
+/F1 10 Tf
+(mode. Later development would be scoped under a separate agreement.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Sources and credits) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Financial concepts were checked against NAIC's How Does Insurance Work, the Texas) Tj
+T*
+/F1 10 Tf
+(Department of Insurance's deductible explanation, and the Consumer Financial Protection) Tj
+T*
+/F1 10 Tf
+(Bureau's emergency-fund guide. The prices, incident probabilities and service timings) Tj
+T*
+/F1 10 Tf
+(are fictional game rules. Real products have different terms.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(https://content.naic.org/consumer/how-does-insurance-work) Tj
+T*
+/F1 10 Tf
+(https://www.tdi.texas.gov/tips/deductibles.html) Tj
+T*
+/F1 10 Tf
+(https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(The game, interface shapes and tests were developed with OpenAI Codex assistance,) Tj
+T*
+/F1 10 Tf
+(including independent design/source review. The artwork uses original CSS shapes, and) Tj
+T*
+/F1 10 Tf
+(the game is silent. Browser and Node provide the execution environments. Embedded) Tj
+T*
+/F1 10 Tf
+(JavaScript handles the game locally.) Tj
+T*
+ET
+BT /F1 9 Tf 54 38 Td (Breakwater Market | Page 3 of 3) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000414 00000 n 
+0000003926 00000 n 
+0000004062 00000 n 
+0000007869 00000 n 
+0000008006 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+9931
+%%EOF

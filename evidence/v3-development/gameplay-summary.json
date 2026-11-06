@@ -1,0 +1,341 @@
+{
+  "cohort": "development",
+  "classification": "NONTRIVIALITY_NOT_RULED_OUT",
+  "universalGoals": false,
+  "allOpenEveryDay": true,
+  "samePlans": true,
+  "daily": [
+    {
+      "policy": "Reserve",
+      "days": [
+        {
+          "day": 1,
+          "minCash": 5,
+          "meanCash": 9.625,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 2,
+          "minCash": 6,
+          "meanCash": 12.425,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 3,
+          "minCash": 6,
+          "meanCash": 16.5,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 4,
+          "minCash": 10,
+          "meanCash": 20.225,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 5,
+          "minCash": 11,
+          "meanCash": 23.925,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 6,
+          "minCash": 8,
+          "meanCash": 27.425,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        }
+      ]
+    },
+    {
+      "policy": "Margin",
+      "days": [
+        {
+          "day": 1,
+          "minCash": 5,
+          "meanCash": 9.625,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 2,
+          "minCash": 6,
+          "meanCash": 12.425,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 3,
+          "minCash": 6,
+          "meanCash": 16.5,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 4,
+          "minCash": 10,
+          "meanCash": 20.225,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 5,
+          "minCash": 11,
+          "meanCash": 23.925,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 6,
+          "minCash": 8,
+          "meanCash": 27.425,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        }
+      ]
+    },
+    {
+      "policy": "Fixed berths",
+      "days": [
+        {
+          "day": 1,
+          "minCash": 5,
+          "meanCash": 8.925,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 2,
+          "minCash": 6,
+          "meanCash": 11.725,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 2
+        },
+        {
+          "day": 3,
+          "minCash": 6,
+          "meanCash": 14.425,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 4,
+          "minCash": 8,
+          "meanCash": 16.9,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 5,
+          "minCash": 5,
+          "meanCash": 19.325,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        },
+        {
+          "day": 6,
+          "minCash": 11,
+          "meanCash": 22.075,
+          "openCounts": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "nonzeroRisk": 0
+        }
+      ]
+    }
+  ],
+  "status": "complete",
+  "elapsedMs": 998.435264,
+  "node": "v26.12.1",
+  "aggregate": [
+    {
+      "policy": "Reserve",
+      "games": 40,
+      "goals": 36,
+      "meanCash": 27.425,
+      "minCash": 8,
+      "maxCash": 41,
+      "meanOpen": 3,
+      "uniqueLayouts": 26,
+      "counts": {
+        "move": 108,
+        "repair": 120,
+        "scheduledRepair": 0,
+        "emergencyRepair": 120,
+        "rescue": 0,
+        "none": 216,
+        "surge": 24,
+        "fault": 0
+      }
+    },
+    {
+      "policy": "Margin",
+      "games": 40,
+      "goals": 36,
+      "meanCash": 27.425,
+      "minCash": 8,
+      "maxCash": 41,
+      "meanOpen": 3,
+      "uniqueLayouts": 26,
+      "counts": {
+        "move": 108,
+        "repair": 120,
+        "scheduledRepair": 0,
+        "emergencyRepair": 120,
+        "rescue": 0,
+        "none": 216,
+        "surge": 24,
+        "fault": 0
+      }
+    },
+    {
+      "policy": "Fixed berths",
+      "games": 40,
+      "goals": 33,
+      "meanCash": 22.075,
+      "minCash": 11,
+      "maxCash": 34,
+      "meanOpen": 3,
+      "uniqueLayouts": 1,
+      "counts": {
+        "move": 0,
+        "repair": 159,
+        "scheduledRepair": 0,
+        "emergencyRepair": 159,
+        "rescue": 0,
+        "none": 209,
+        "surge": 31,
+        "fault": 0
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "a": "Reserve",
+      "b": "Margin",
+      "cashWin": 0,
+      "cashTie": 40,
+      "cashLoss": 0,
+      "goalWin": 0,
+      "goalTie": 40,
+      "goalLoss": 0,
+      "identicalPlans": 40
+    },
+    {
+      "a": "Reserve",
+      "b": "Fixed berths",
+      "cashWin": 35,
+      "cashTie": 1,
+      "cashLoss": 4,
+      "goalWin": 5,
+      "goalTie": 33,
+      "goalLoss": 2,
+      "identicalPlans": 0
+    },
+    {
+      "a": "Margin",
+      "b": "Fixed berths",
+      "cashWin": 35,
+      "cashTie": 1,
+      "cashLoss": 4,
+      "goalWin": 5,
+      "goalTie": 33,
+      "goalLoss": 2,
+      "identicalPlans": 0
+    }
+  ],
+  "limits": "Synthetic causal policies with one-day expectations and common greedy settlement, not human play or learning evidence."
+}

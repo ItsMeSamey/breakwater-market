@@ -1,0 +1,97 @@
+{
+  "status": "complete",
+  "elapsedMs": 1692.91633,
+  "node": "v26.12.1",
+  "aggregate": [
+    {
+      "policy": "Reserve",
+      "games": 40,
+      "goals": 40,
+      "meanCash": 45.9,
+      "minCash": 24,
+      "maxCash": 59,
+      "meanOpen": 3,
+      "uniqueLayouts": 25,
+      "counts": {
+        "move": 106,
+        "repair": 120,
+        "rescue": 0,
+        "none": 227,
+        "surge": 13,
+        "fault": 0
+      }
+    },
+    {
+      "policy": "Margin",
+      "games": 40,
+      "goals": 40,
+      "meanCash": 45.9,
+      "minCash": 24,
+      "maxCash": 59,
+      "meanOpen": 3,
+      "uniqueLayouts": 25,
+      "counts": {
+        "move": 106,
+        "repair": 120,
+        "rescue": 0,
+        "none": 227,
+        "surge": 13,
+        "fault": 0
+      }
+    },
+    {
+      "policy": "Fixed berths",
+      "games": 40,
+      "goals": 40,
+      "meanCash": 40.475,
+      "minCash": 30,
+      "maxCash": 52,
+      "meanOpen": 3,
+      "uniqueLayouts": 1,
+      "counts": {
+        "move": 0,
+        "repair": 159,
+        "rescue": 0,
+        "none": 220,
+        "surge": 20,
+        "fault": 0
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "a": "Reserve",
+      "b": "Margin",
+      "cashWin": 0,
+      "cashTie": 40,
+      "cashLoss": 0,
+      "goalWin": 0,
+      "goalTie": 40,
+      "goalLoss": 0,
+      "identicalPlans": 40
+    },
+    {
+      "a": "Reserve",
+      "b": "Fixed berths",
+      "cashWin": 36,
+      "cashTie": 1,
+      "cashLoss": 3,
+      "goalWin": 0,
+      "goalTie": 40,
+      "goalLoss": 0,
+      "identicalPlans": 0
+    },
+    {
+      "a": "Margin",
+      "b": "Fixed berths",
+      "cashWin": 36,
+      "cashTie": 1,
+      "cashLoss": 3,
+      "goalWin": 0,
+      "goalTie": 40,
+      "goalLoss": 0,
+      "identicalPlans": 0
+    }
+  ],
+  "limits": "Synthetic causal policies with one-day expectations and common greedy settlement, not human play or learning evidence."
+}

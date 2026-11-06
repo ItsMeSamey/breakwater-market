@@ -1,0 +1,11 @@
+{
+  "core.js": "9dc55589241025916ace2486576ac4230b1b2bb1e70e31974567ad77b2b8e057",
+  "game.js": "3db30358621c3ab2191cdd210c1630058c9ca6bf611ed9e9eb2333af34d934ad",
+  "index.html": "b13db2146bb1240faee7d7fa3c4214068da4a2df34255e8da3e0f36ac6e79e71",
+  "style.css": "c198197f2de3ee72e56788799e2faf7f1c46667d8db545cc69fe81f89acfc3cc",
+  "tests/core.test.cjs": "df86eafb662ec18fa1398fa8142085c177684c50290f102a266e3d4f5e5757c4",
+  "tests/gameplay-diagnostic.cjs": "dfc5f1986422f9a07a9a1abfe1abd516e2ea443398ed8a2d065fd3218426c46d",
+  "build/index.html": "e9121b7aef637e6f6d146ca35e2bd3af3c90abc9f0178119247a3b790511efa5",
+  "build/manifest.json": "d476593d6fbcc9eb50947b03fe5699543006b46c41aa29b6ce3bb520f08316f4",
+  "RULES_V2.md": "7c479a844813e463f9c71499233a04501f9fb51a65ce7e6e0fc3c563dfe07b70"
+}

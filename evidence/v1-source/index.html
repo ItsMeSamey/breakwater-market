@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breakwater Market</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="core.js"></script><script defer src="game.js"></script>
+</head>
+<body>
+<a class="skip" href="#board">Skip to market board</a>
+<header class="masthead"><div><p class="eyebrow">A small harbor. A shared risk.</p><h1>Breakwater <span>Market</span></h1></div><button id="restart" class="quiet">New voyage</button></header>
+<main id="game">
+<p id="boot" role="status">Loading the market. If this remains visible, keep index.html, core.js, game.js and style.css together and reopen index.html with JavaScript enabled. No internet connection is needed.</p>
+<noscript><p>This turn-based game needs JavaScript. Its <a href="RULES_FREEZE.md">rules</a> can still be read without it.</p></noscript>
+<section class="intro" aria-label="Your goal"><p>Keep three stalls open and save <strong>18 coins</strong> for lantern night. Six market days. Incidents arrive <em>before</em> the day's earnings.</p><details id="help"><summary>How to play</summary><ol><li>Select a stall, then an empty berth to move it. Moving costs one coin and one action.</li><li>Read today's four possible event tickets. A surge hits a whole quay; a cable fault hits a whole lane.</li><li>Choose cover, or keep your coins. Cover costs two coins, covers one named incident, and pays the repair bill minus two, up to six coins.</li><li>Open the market. Reopen closed stalls for four coins each, then collect income. Closed stalls earn nothing.</li></ol><p>You have two planning actions. If every stall is closed, a rescue job gives four coins for one action. Use the other action to reopen one stall. There is no timer and no borrowing.</p><p>Tab through controls; Enter or Space activates them. Replaying the same seed repeats the events. The risk preview knows the possibilities, not which event will happen.</p></details></section>
+<div id="hud" class="hud" aria-label="Market status"></div>
+<p id="status" class="status" role="status" aria-live="polite"></p><p id="error" class="error" role="alert" hidden></p>
+<div class="play-layout">
+<section class="harbor" aria-labelledby="board-title"><div class="section-head"><h2 id="board-title">Your harbor</h2><span id="phase-label"></span></div><p id="selection-help" class="muted">Select a stall to move it to an empty berth.</p><div id="board" class="board" tabindex="-1" aria-label="Six-berth market board"></div><div id="actions" class="actions"></div><p class="board-note">Stars mark today's busy berth. Stripes and words mark incident areas; color is only an extra cue.</p></section>
+<aside class="decisions"><section class="panel"><h2 id="forecast-title">Today's forecast</h2><div id="forecast"></div></section><section id="cover-panel" class="panel"><h2>Choose today's cover</h2><div id="policies" class="policies"></div><p class="fine">2-coin premium. 2-coin deductible per event. 6-coin payout cap. Only the named incident is covered. Payment is immediate in this game.</p></section><section class="panel risk-panel"><h2>Can you fund the repairs?</h2><div id="risk"></div><details><summary>Show the possible bills</summary><div id="risk-table"></div></details></section></aside>
+</div>
+<section id="event-panel" class="event-panel" hidden></section>
+<div class="advance"><button id="advance" class="primary">Open day 1 market</button><p id="advance-note">Cover is paid when you open. Check the forecast first.</p></div>
+<section id="ending" class="ending" hidden></section>
+<details id="ledger" class="ledger"><summary>Cash trail and past decisions</summary><div id="history"><p>No days completed yet. Your first market will appear here.</p></div></details>
+<footer><p>A fictional game about shared shocks, insurance limits and accessible cash. These prices and odds are invented. Real policies differ. No learning outcome has been measured.</p><p>Original local prototype. No account, network calls or saved personal data. <a href="SOURCE_NOTES.md">Sources and model limits</a>.</p></footer>
+</main>
+<dialog id="new-dialog" aria-labelledby="new-title"><form id="new-form"><h2 id="new-title">Chart another week</h2><p>Starting again replaces this game. Keep the seed to try another decision against the same events.</p><label for="seed">Seed</label><input id="seed" name="seed" value="HARBOR-1" maxlength="24" pattern="[A-Za-z0-9-]{1,24}" required autocomplete="off"><p>1 to 24 letters, numbers or hyphens.</p><div class="dialog-actions"><button id="random-seed" type="button">Fresh seed</button><button id="cancel-new" type="button">Keep playing</button><button type="submit" class="primary">Start week</button></div></form></dialog>
+</body></html>

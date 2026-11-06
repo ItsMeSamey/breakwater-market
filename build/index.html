@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breakwater Market</title>
+<style>*{box-sizing:border-box} :root{color-scheme:dark;--ink:#f7f1dc;--muted:#b8c7c3;--water:#102f39;--deep:#091f29;--gold:#f9c66b;--line:#40616a;--red:#ffac9e;--green:#bde7c0} body{margin:0;background:var(--deep);color:var(--ink);font:17px/1.5 system-ui,sans-serif} body:before{content:"";position:fixed;inset:0;z-index:-1;opacity:.12;background:repeating-radial-gradient(ellipse at 10% 0%,transparent 0 28px,#82c3c6 29px 30px,transparent 31px 52px)} button,input,summary{font:inherit}button,summary{cursor:pointer}button{border:1px solid #789294;border-radius:8px;background:#203d45;color:var(--ink);padding:.65rem .85rem;min-height:44px}button:hover:not(:disabled){background:#355963}button:disabled{opacity:.5;cursor:not-allowed}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:4px}a{color:var(--gold)}h1,h2,h3,p{margin-top:0}h1{font:700 clamp(2rem,4vw,3.6rem)/1 Georgia,serif;letter-spacing:-.04em;margin-bottom:0}h1 span{color:var(--gold)}h2{font:700 1.4rem/1.2 Georgia,serif}h3{font-size:1rem}.masthead,main{max-width:1280px;margin:auto;padding:24px}.masthead{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:38px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.7rem;color:var(--muted);margin-bottom:10px}.quiet{background:transparent}.intro{max-width:900px}.intro>p{font-size:1.1rem}details{border-top:1px solid var(--line);padding:10px 0}summary{min-height:44px;display:list-item;padding:8px 0;color:var(--gold)}details ol{padding-left:25px}details li{margin-bottom:8px}.hud{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}.hud>div{padding:14px 18px;background:#15323b;border:1px solid var(--line);border-radius:10px}.hud strong{display:block;font:700 1.8rem Georgia,serif}.hud span{font-size:.8rem;color:var(--muted)}.status{min-height:30px;margin:18px 0 8px;color:var(--green)}.error{background:#512b2b;color:#fff0e9;border-left:5px solid var(--red);padding:12px}.play-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(300px,1fr);gap:22px}.harbor{background:linear-gradient(155deg,#215261,#123640);padding:22px;border-radius:18px;border:1px solid #50717b;align-self:start;box-shadow:0 18px 50px #0003}.section-head{display:flex;justify-content:space-between;gap:12px}.section-head span{font-size:.8rem;color:var(--gold)}.muted,.fine,.board-note{color:var(--muted)}.fine,.board-note{font-size:.82rem;margin:12px 0 0}.board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:20px 0}.berth{position:relative;min-width:0;min-height:188px;text-align:center;padding:12px 6px;background:#31515a;border:2px solid #718482;border-bottom:12px solid #6d6149;border-radius:6px;display:flex;flex-direction:column;align-items:center;gap:6px}.berth:nth-child(n+4){background:#354e43;border-color:#79816a;border-bottom-color:#837555}.berth.selected{outline:4px solid var(--gold);outline-offset:3px}.berth .location{font-size:.72rem;color:#eceddd}.berth .stall-art{width:64px;height:54px;border-radius:2px;background:repeating-linear-gradient(90deg,#ffd599 0 11px,#ad623e 12px 22px);border-top:9px solid #f8bb65;border-bottom:15px solid #664c32;box-shadow:0 5px 0 #1e3438}.berth:nth-child(3n+2) .stall-art{background:repeating-linear-gradient(90deg,#f5f1dd 0 11px,#70a6a0 12px 22px);border-top-color:#83c4bd}.berth .closed{background:#37434a!important;border-top-color:#6f7b7e;position:relative;opacity:.75}.berth .closed:after{content:"CLOSED";position:absolute;inset:9px -5px auto;background:#f5dac4;color:#3d3025;font:700 10px system-ui;transform:rotate(-8deg)}.berth .empty{height:54px;width:64px;border:2px dashed #91a7a6;border-radius:3px;display:grid;place-items:center;font-size:25px;color:#c7d8d4}.berth .income{font-size:.8rem;color:var(--gold)}.berth .hazards{font-size:.68rem;line-height:1.3;min-height:24px;color:#f8c8a6}.berth.at-risk{background-image:repeating-linear-gradient(135deg,transparent 0 10px,#fae9bf0b 11px 14px)}.actions{display:flex;gap:9px;flex-wrap:wrap}.decisions{display:grid;gap:14px}.panel{background:#102b34;border:1px solid var(--line);border-radius:12px;padding:18px}.ticket{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #35505a;padding:9px 0}.ticket small{color:var(--muted)}.ticket b{white-space:nowrap;color:var(--gold)}.policies{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.policies button{font-size:.85rem;padding:9px 5px}.policies button[aria-pressed=true]{background:var(--gold);color:#242d2d;border-color:var(--gold)}.risk-number{font:700 2rem Georgia,serif;color:var(--gold)}.risk-panel p{margin-bottom:8px}.risk-row{border-top:1px solid #36545c;padding:9px 0;font-size:.8rem}.risk-row strong{display:block}.event-panel,.ending{border:1px solid var(--gold);border-radius:14px;background:#253c3d;padding:22px;margin:22px 0}.event-panel h2{color:var(--gold)}.event-panel.reveal{animation:arrive .4s ease-out}.cash-line{display:flex;flex-wrap:wrap;gap:8px}.cash-line span{background:#102b34;padding:8px;border-radius:6px}.advance{display:flex;align-items:center;gap:20px;margin:24px 0}.advance p{margin:0;color:var(--muted);font-size:.85rem}.primary{background:var(--gold);color:#1c2a2c;border-color:var(--gold);font-weight:750}.primary:hover:not(:disabled){background:#ffe2ac}.ledger{margin-top:20px}.history-day{border-top:1px solid var(--line);padding:14px 0}.history-day p{margin-bottom:6px;font-size:.9rem}footer{padding:25px 0 0;color:var(--muted);font-size:.78rem;max-width:950px}dialog{background:#142f38;color:var(--ink);border:1px solid #839fa3;border-radius:15px;padding:28px;max-width:min(550px,calc(100% - 28px))}dialog::backdrop{background:#00131bc9}dialog input{display:block;width:100%;background:#071e28;color:var(--ink);border:1px solid #8ea5a9;padding:10px;border-radius:5px;margin:8px 0}.dialog-actions{display:flex;flex-wrap:wrap;gap:10px}.skip{position:absolute;top:-100px;left:12px;background:#152e35;padding:12px;z-index:5}.skip:focus{top:10px}@keyframes arrive{from{opacity:.2;transform:translateY(10px)}to{opacity:1;transform:none}}[hidden]{display:none!important}@media(max-width:850px){.play-layout{grid-template-columns:1fr}.decisions{grid-template-columns:1fr 1fr}.risk-panel{grid-column:1/-1}.masthead,main{padding:20px}.harbor{padding:18px}}@media(max-width:520px){body{font-size:16px}.masthead{align-items:flex-start;padding-top:25px}.masthead button{font-size:.8rem;padding:8px}.eyebrow{font-size:.6rem}.masthead,main{padding-left:14px;padding-right:14px}.hud{grid-template-columns:repeat(2,1fr)}.hud>div{padding:10px 14px}.hud strong{font-size:1.5rem}.harbor{padding:14px}.board{gap:8px}.berth{min-height:190px;padding:8px 3px}.berth .stall-art,.berth .empty{width:50px}.berth .location{font-size:.65rem}.berth strong{font-size:.85rem}.berth .income{font-size:.7rem}.berth .hazards{font-size:.65rem}.decisions{grid-template-columns:1fr}.risk-panel{grid-column:auto}.advance{align-items:stretch;flex-direction:column;gap:10px}.advance button{width:100%}.section-head{display:block}.section-head h2{margin-bottom:6px}.board-note{font-size:.75rem}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.action-note{flex-basis:100%;margin:4px 0 0;font-size:.82rem;color:var(--muted)}.recovery-help{margin:16px 0 0;padding:12px;border:1px solid var(--gold);border-radius:8px;background:#12323b}.berth.struck{border-color:var(--red)}#board:focus,#board-title:focus,#event-title:focus,#ending-title:focus{outline:3px solid var(--gold);outline-offset:5px}#event-title,#ending-title,#board-title{scroll-margin-block:24px}.harbor,.panel,.hud>div{min-width:0}.actions button,.dialog-actions button{max-width:100%;white-space:normal;overflow-wrap:anywhere}.berth .hazards{overflow-wrap:anywhere}
+.berth .sales{display:block;font-size:.68rem;line-height:1.35;color:var(--muted)}.berth .income{line-height:1.4}
+.masthead{padding-top:18px;padding-bottom:12px}h1{font-size:clamp(1.8rem,3vw,2.5rem)}.eyebrow{margin-bottom:5px}.masthead+main{padding-top:0}.intro{max-width:none}.intro>p{font-size:1rem;margin-bottom:4px}.intro details{padding:0;border-top:0}.intro summary{padding:4px 0;min-height:32px}.hud{margin-top:8px;gap:8px}.hud>div{padding:6px 12px}.hud strong{font-size:1.4rem}.status{margin:8px 0;min-height:24px;font-size:.9rem}.play-layout{grid-template-columns:minmax(0,1.85fr) minmax(280px,1fr);gap:16px}.harbor{padding:16px}.section-head h2{margin-bottom:4px}.harbor>.advance{margin:8px 0 12px;gap:12px}.harbor>.advance .primary{flex-shrink:0}.harbor>.advance p{font-size:.78rem}.harbor>#selection-help{font-size:.85rem;margin-bottom:0}.board{padding:12px 0;gap:10px}.berth{min-height:158px;padding:7px 5px;gap:4px;border-bottom-width:8px}.berth .stall-art{height:34px;width:52px;border-top-width:6px;border-bottom-width:9px}.berth .empty{height:34px;width:52px}.berth .closed:after{inset:4px -5px auto}.berth .hazards{font-size:.66rem;min-height:18px}.demand{display:block;color:var(--gold);font-size:.65rem;font-weight:700;line-height:1.2}.decisions{gap:10px}.panel{padding:12px}.panel h2{font-size:1.2rem;margin-bottom:10px}.ticket{padding:6px 0;font-size:.88rem}.ticket small{font-size:.76rem}.panel .fine{font-size:.75rem;margin-top:8px}.risk-number{font-size:1.65rem}.action-note{font-size:.76rem}.board-note{font-size:.75rem}.event-panel{padding:14px;margin:12px 0}.cash-line{font-size:.82rem}.cash-line span{padding:6px}.event-panel p{font-size:.88rem;margin-bottom:10px}@media(max-width:850px){.play-layout{grid-template-columns:1fr}.decisions{grid-template-columns:1fr 1fr}.harbor>.advance{position:sticky;top:0;z-index:2;background:#163b46;border:1px solid #50717b;border-radius:8px;padding:10px;box-shadow:0 5px 15px #00131b55}.harbor button,#event-title,#board-title{scroll-margin-top:145px}.harbor .advance button{scroll-margin-top:10px}}@media(max-width:520px){.masthead{padding-top:14px;padding-bottom:10px}.eyebrow{font-size:.55rem}.hud{grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.hud>div{padding:6px}.hud strong{font-size:1.15rem}.hud span{font-size:.65rem;display:block;line-height:1.25}.harbor{padding:10px}.harbor>.advance{gap:5px;padding:8px;margin:8px 0}.harbor>.advance p{font-size:.7rem}.board{gap:7px}.berth{padding:7px 3px}.berth .location{font-size:.64rem}.berth .sales{font-size:.63rem}.berth .stall-art,.berth .empty{width:46px}.decisions{grid-template-columns:1fr}.section-head{display:flex;align-items:center}.section-head h2{font-size:1.25rem}.section-head span{font-size:.7rem}.demand{font-size:.6rem}}
+@media(max-width:850px){html.turn-active{scroll-padding-bottom:var(--turn-dock-space,180px)}html.turn-active body{padding-bottom:var(--turn-dock-space,180px)}html.turn-active .harbor>#turn-controls{position:fixed;inset:auto 0 0;z-index:4;margin:0;padding:10px max(14px,env(safe-area-inset-right)) max(10px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));border-radius:12px 12px 0 0;border-bottom:0;box-shadow:0 -5px 18px #00131b77;align-items:stretch;flex-direction:column;gap:5px}#turn-controls .primary{width:100%}#turn-controls p{font-size:.75rem;line-height:1.35}button,a,summary,input,[tabindex]{scroll-margin-bottom:12px}.harbor button,#event-title,#board-title{scroll-margin-top:12px}}
+</style>
+
+</head>
+<body>
+<a class="skip" href="#board">Skip to market board</a>
+<header class="masthead"><div><p class="eyebrow">A small harbor. A shared risk.</p><h1>Breakwater <span>Market</span></h1></div><button id="restart" class="quiet" disabled>New voyage</button></header>
+<main id="game">
+<p id="boot" role="status">Loading the market. If this remains visible, keep index.html, core.js, game.js and style.css together and reopen index.html with JavaScript enabled. No internet connection is needed.</p>
+<noscript><p>This turn-based game needs JavaScript. Its <a href="RULES_V3.md">current rules</a> and <a href="RULES_PRE_RUN_REVISION.md">repair-risk definition</a> can still be read without it.</p></noscript>
+<section class="intro" aria-label="Your goal"><p>Keep three stalls open and save <strong>18 coins</strong> for lantern night. Six market days. Incidents arrive <em>before</em> the day's earnings.</p><details id="help"><summary>How to play</summary><ol><li>Select a stall, then an empty berth to move it. Moving costs one coin and one action.</li><li>Read today's four possible event tickets. A surge hits a whole quay; a cable fault hits a whole lane.</li><li>Choose cover, or keep your coins. Cover costs two coins, covers one named incident, and pays new covered damage minus two, up to six coins. Existing closures do not create a claim.</li><li>Open the market. After the incident, emergency reopening costs four coins per stall with no action limit. Then collect sales and pay supplies. Closed stalls make no sales and pay no supplies.</li></ol><p>Each open stall sells 3 coins on the Waterfront or 2 in the Garden, plus 1 at the starred berth. At collection, each pays 1 coin for supplies from those sales. You keep the net: 2 on the Waterfront or 1 in the Garden, plus the bonus. Supplies need no upfront cash and create no debt.</p><p>You have two planning actions. Scheduled reopening costs three coins and one action, but the stall can be hit again in today's incident. Emergency reopening costs four coins after the incident. These are fictional service prices.</p><p>If every stall is closed, a rescue job gives four coins for one action, at most once per day. Use a remaining action to reopen one stall. There is no timer and no borrowing.</p><p>Tab through controls; Enter or Space activates them. Replaying the same seed repeats the events. The risk preview knows the possibilities, not which event will happen.</p></details></section>
+<div id="hud" class="hud" aria-label="Market status"></div>
+<p id="status" class="status" role="status" aria-live="polite"></p><p id="error" class="error" role="alert" hidden></p>
+<div class="play-layout">
+<section class="harbor" aria-labelledby="board-title"><div class="section-head"><h2 id="board-title" tabindex="-1">Your harbor</h2><span id="phase-label"></span></div><div id="turn-controls" class="advance"><button id="advance" class="primary" aria-describedby="advance-note" disabled>Open day 1 market</button><p id="advance-note">Cover is paid when you open. Check the forecast first.</p></div><section id="event-panel" class="event-panel" hidden></section><p id="selection-help" class="muted">Select a stall to move it to an empty berth.</p><div id="board" class="board" tabindex="-1" aria-label="Six-berth market board" aria-describedby="selection-help"></div><div id="actions" class="actions"></div><p id="recovery-help" class="recovery-help" hidden></p><p class="board-note">All amounts are coins. Net = sales minus 1 coin of supplies per open stall, paid at collection. High demand includes today's +1 sales bonus. Stripes and words mark incident areas; color is only an extra cue.</p></section>
+<aside class="decisions"><section class="panel"><h2 id="forecast-title">Today's forecast</h2><div id="forecast"></div></section><section id="cover-panel" class="panel"><h2>Choose today's cover</h2><div id="policies" class="policies"></div><p class="fine">2-coin premium. 2-coin deductible per event. 6-coin payout cap. Only the named incident is covered. Payment is immediate in this game.</p></section><section class="panel risk-panel"><h2>Can you fund the repairs?</h2><div id="risk"></div><details><summary>Show the possible bills</summary><div id="risk-table"></div></details></section></aside>
+</div>
+<section id="ending" class="ending" hidden></section>
+<details id="ledger" class="ledger"><summary>Cash trail and past decisions</summary><div id="history"><p>No days completed yet. Your first market will appear here.</p></div></details>
+<footer><p>A fictional game about shared shocks, insurance limits and accessible cash. These prices and odds are invented. Real policies differ. No learning outcome has been measured.</p><p>Original local prototype. No account, network calls or saved personal data. <a href="SOURCE_NOTES.md">Sources and model limits</a>.</p></footer>
+</main>
+<dialog id="new-dialog" aria-labelledby="new-title"><form id="new-form"><h2 id="new-title">Chart another week</h2><p>Starting again replaces this game. Keep the seed to try another decision against the same events.</p><label for="seed">Seed</label><input id="seed" name="seed" value="HARBOR-1" maxlength="24" pattern="[A-Za-z0-9-]{1,24}" required autocomplete="off" aria-describedby="seed-help"><p id="seed-help">1 to 24 letters, numbers or hyphens.</p><div class="dialog-actions"><button id="random-seed" type="button">Fresh seed</button><button id="cancel-new" type="button">Keep playing</button><button type="submit" class="primary">Start week</button></div></form></dialog>
+<script>(function (root) {
+  'use strict';
+  const names = ['Copper', 'Mint', 'Coral'];
+  const policies = ['none', 'surge', 'fault'];
+  const copy = value => JSON.parse(JSON.stringify(value));
+  function seedValue(text) {
+    let h = 2166136261;
+    for (const c of String(text)) h = Math.imul(h ^ c.charCodeAt(0), 16777619);
+    return h >>> 0;
+  }
+  function random(seed) {
+    let x = seed || 1;
+    return () => { x ^= x << 13; x ^= x >>> 17; x ^= x << 5; return (x >>> 0) / 4294967296; };
+  }
+  function season(seed) {
+    const forecastRng = random(seedValue('forecast:' + seed));
+    const eventRng = random(seedValue('events:' + seed));
+    return Array.from({length: 6}, () => ({
+      row: Math.floor(forecastRng() * 2), col: Math.floor(forecastRng() * 3),
+      bonus: Math.floor(forecastRng() * 6), ticket: Math.floor(eventRng() * 4)
+    }));
+  }
+  function initial(seed = 'HARBOR-1') {
+    if (!/^[A-Za-z0-9-]{1,24}$/.test(seed)) throw new Error('Use 1 to 24 letters, numbers or hyphens for a seed.');
+    return {seed, day: 0, cash: 6, stalls: [0, 1, 5].map((pos, id) => ({id, name: names[id], pos, open: true})),
+      actions: 2, rescueUsed: false, policy: 'none', phase: 'plan', history: [], event: null};
+  }
+  function forecast(state) {
+    const {row, col, bonus} = season(state.seed)[Math.min(state.day, 5)];
+    return {row, col, bonus};
+  }
+  function events(f) {
+    return [{kind: 'calm', weight: 2, label: 'Calm market'},
+      {kind: 'surge', row: f.row, weight: 1, label: (f.row ? 'Garden' : 'Waterfront') + ' quay surge'},
+      {kind: 'fault', col: f.col, weight: 1, label: 'Cable fault, lane ' + (f.col + 1)}];
+  }
+  function hit(stall, event) {
+    return stall.open && (event.kind === 'surge' ? Math.floor(stall.pos / 3) === event.row :
+      event.kind === 'fault' ? stall.pos % 3 === event.col : false);
+  }
+  function premium(policy) { return policy === 'none' ? 0 : 2; }
+  function claim(bill, policy, eventKind) {
+    return policy !== 'none' && policy === eventKind ? Math.min(6, Math.max(0, bill - 2)) : 0;
+  }
+  function previewFor(state, publicForecast) {
+    const available = state.cash - premium(state.policy);
+    const existingBill = 4 * state.stalls.filter(s => !s.open).length;
+    const outcomes = events(publicForecast).map(event => {
+      const bill = 4 * state.stalls.filter(s => hit(s, event)).length;
+      const payout = claim(bill, state.policy, event.kind);
+      return {...event, probability: event.weight / 4, bill, payout, existingBill, gap: Math.max(0, existingBill + bill - payout - available)};
+    });
+    return {available, affordable: available >= 0, outcomes, existingBill,
+      rawMean: outcomes.reduce((n, e) => n + e.bill * e.probability, 0),
+      payoutMean: outcomes.reduce((n, e) => n + e.payout * e.probability, 0),
+      shortfall: available < 0 ? null : outcomes.reduce((n, e) => n + (e.gap > 0 ? e.probability : 0), 0)};
+  }
+  function preview(state) { return previewFor(state, forecast(state)); }
+  function act(state, action) {
+    const s = copy(state);
+    const fail = message => { throw new Error(message); };
+    if (action.type === 'policy') {
+      if (s.phase !== 'plan') fail('Choose cover before opening the market.');
+      if (!policies.includes(action.value)) fail('Choose a listed policy.');
+      s.policy = action.value; return s;
+    }
+    if (action.type === 'move' || action.type === 'repair' || action.type === 'rescue') {
+      if (s.phase !== 'plan' && !(s.phase === 'settle' && action.type === 'repair')) fail('This action is not available now.');
+      if (s.phase === 'plan' && s.actions < 1) fail('Both planning actions are used. Open the market to continue.');
+      if (action.type === 'rescue') {
+        if (s.stalls.some(t => t.open)) fail('The rescue job is available only when every stall is closed.');
+        if (s.rescueUsed) fail('The rescue job is available only once per day.');
+        s.cash += 4; s.actions--; s.rescueUsed = true; return s;
+      }
+      const stall = s.stalls.find(t => t.id === action.id);
+      if (!stall) fail('Choose a stall first.');
+      if (action.type === 'move') {
+        if (!Number.isInteger(action.pos) || action.pos < 0 || action.pos > 5) fail('Choose a berth on the board.');
+        if (s.stalls.some(t => t.pos === action.pos)) fail('That berth is occupied. Choose an empty one.');
+        if (s.cash < 1) fail('Moving needs one coin.');
+        stall.pos = action.pos; s.cash--; s.actions--;
+      } else {
+        if (stall.open) fail('That stall is already open.');
+        const price = s.phase === 'plan' ? 3 : 4;
+        if (s.cash < price) fail('Reopening needs ' + price + ' coins. Leave it closed for now, or use a rescue job when all are closed.');
+        stall.open = true; s.cash -= price;
+        if (s.phase === 'plan') s.actions--;
+      }
+      return s;
+    }
+    if (action.type === 'commit') {
+      if (s.phase !== 'plan') fail('The market has already opened.');
+      const price = premium(s.policy);
+      if (s.cash < price) fail('This policy needs two coins. Choose no cover or keep enough cash.');
+      const f = forecast(s), ticket = season(s.seed)[s.day].ticket;
+      const event = events(f)[ticket < 2 ? 0 : ticket - 1];
+      const hitIds = s.stalls.filter(t => hit(t, event)).map(t => t.id);
+      const bill = hitIds.length * 4, payout = claim(bill, s.policy, event.kind);
+      const before = s.cash;
+      s.cash = s.cash - price + payout;
+      s.stalls.forEach(t => { if (hitIds.includes(t.id)) t.open = false; });
+      s.phase = 'settle';
+      s.event = {...event, hitIds, bill, payout, premium: price, cashBefore: before,
+        cashAfterClaim: s.cash, preview: preview(state)};
+      return s;
+    }
+    if (action.type === 'collect') {
+      if (s.phase !== 'settle') fail('Open the market before collecting income.');
+      const f = forecast(s);
+      const grossIncome = s.stalls.reduce((sum, t) => sum + (t.open ? grossEarnings(t.pos, f) : 0), 0);
+      const supplies = s.stalls.filter(t => t.open).length;
+      const income = grossIncome - supplies;
+      const repairs = s.event.cashAfterClaim - s.cash;
+      s.cash += income;
+      s.history.push({day: s.day + 1, ...s.event, repairs, grossIncome, supplies, income, cashEnd: s.cash,
+        open: s.stalls.filter(t => t.open).length});
+      s.day++;
+      s.phase = s.day === 6 ? 'over' : 'plan';
+      s.actions = 2; s.rescueUsed = false; s.policy = 'none'; s.event = null;
+      return s;
+    }
+    fail('Unknown action.');
+  }
+  function grossEarnings(pos, f) { return (pos < 3 ? 3 : 2) + (pos === f.bonus ? 1 : 0); }
+  function earnings(pos, f) { return grossEarnings(pos, f) - 1; }
+  function outcome(s) { return {cash: s.cash, open: s.stalls.filter(t => t.open).length,
+    lanterns: s.phase === 'over' && s.cash >= 18 && s.stalls.every(t => t.open)}; }
+  const api = {initial, forecast, events, hit, premium, claim, preview, previewFor, act, earnings, grossEarnings, outcome, seedValue, season};
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.Breakwater = api;
+})(typeof globalThis === 'undefined' ? this : globalThis);
+</script><script>(function () {
+  'use strict';
+  const B = window.Breakwater;
+  if (!B) return;
+  const $ = id => document.getElementById(id);
+  const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let state = B.initial(), selected = null, planningTrail = [];
+  const quay = row => row ? 'Garden' : 'Waterfront';
+  const percent = n => Math.round(n * 100) + '%';
+  const counted = (n, noun) => `${n} ${noun}${n === 1 ? '' : 's'}`;
+  const berthName = pos => quay(Math.floor(pos / 3)) + ' ' + (pos % 3 + 1);
+  function preparation(day) {
+    const entries = planningTrail.filter(entry => entry.day === day);
+    return entries.length ? entries.map(entry => esc(entry.text)).join('; ') : 'No planning spending or rescue income.';
+  }
+  function notice(text) { $('status').textContent = text; }
+  function sizeTurnDock() {
+    // Reserve the real dock height, including wrapped copy and safe-area padding.
+    const height = $('turn-controls').getBoundingClientRect().height;
+    document.documentElement.style.setProperty('--turn-dock-space', Math.ceil(height + 16) + 'px');
+  }
+  function keepFocusAboveDock(event) {
+    if (state.phase === 'over' || !window.matchMedia('(max-width: 850px)').matches) return;
+    const target = event.target;
+    if (target.closest('#turn-controls, #new-dialog')) return;
+    const rect = target.getBoundingClientRect(), dock = $('turn-controls').getBoundingClientRect();
+    if (rect.bottom > dock.top - 12 || rect.top < 12) target.scrollIntoView({block: 'center', inline: 'nearest'});
+  }
+  function render(focusId) {
+    const f = B.forecast(state), p = B.preview(state), end = B.outcome(state);
+    $('hud').innerHTML = `<div><strong>${Math.min(6, state.day + 1)} / 6</strong><span>Market day</span></div><div><strong>${state.cash}</strong><span>Coins available</span></div><div><strong>${end.open} / 3</strong><span>Stalls open</span></div><div><strong>${state.phase === 'plan' ? state.actions : '-'}</strong><span>Planning actions</span></div>`;
+    $('phase-label').textContent = state.phase === 'plan' ? 'Plan, then reveal' : state.phase === 'settle' ? 'Repair, then collect' : 'Week complete';
+    $('selection-help').textContent = state.phase === 'plan' ? state.actions === 0 ? 'Both planning actions are used. Choose cover, then open the market.' : selected === null ? 'Select a stall, then an empty berth. Moving costs 1 coin and 1 action.' : state.stalls[selected].name + ' selected. Choose an empty berth, or reopen it if closed (3 coins, 1 action).' : state.phase === 'settle' ? 'Select a closed stall to reopen it for 4 coins, with no action cost. You can also leave it closed.' : 'Your final market. Start another week to try different decisions.';
+    $('recovery-help').hidden = end.open > 0 || state.phase === 'over';
+    $('recovery-help').textContent = state.phase === 'plan' ? !state.rescueUsed && state.actions > 0 ? 'Every stall is closed. A rescue job adds 4 coins once per day. With another action, schedule a reopening for 3 coins; otherwise reopen after the incident for 4.' : state.day === 5 ? 'Every stall is closed. Open the market to reach emergency repairs before the final collection.' : 'Every stall is closed. Open the market to reach emergency repairs. If you cannot reopen today, collect zero income to reach tomorrow\'s rescue job.' : state.cash >= 4 ? 'Every stall is closed. You can afford an emergency reopening before collecting income.' : state.day === 5 ? 'Every stall is closed and there is not enough cash to reopen. Collecting zero income will finish this week.' : 'Every stall is closed and there is not enough cash to reopen. Collect zero income; tomorrow\'s rescue job can help you recover.';
+    $('board').innerHTML = Array.from({length: 6}, (_, pos) => {
+      const t = state.stalls.find(t => t.pos === pos), row = Math.floor(pos / 3), col = pos % 3;
+      const threats = [(row === f.row ? 'Surge zone' : ''), (col === f.col ? 'Fault lane' : '')].filter(Boolean).join(' + ');
+      const net = B.earnings(pos, f), gross = net + 1;
+      const label = `${quay(row)} lane ${col + 1}, ${t ? t.name + ', ' + (t.open ? 'open' : 'closed, currently zero sales and zero supplies') : 'empty berth'}, if open at collection: ${gross} coins gross sales minus 1 coin for supplies equals ${counted(net, 'net coin')}${pos === f.bonus ? ', busy berth bonus included' : ''}${threats ? ', ' + threats : ''}`;
+      const struck = state.phase === 'settle' && t && state.event.hitIds.includes(t.id);
+      return `<button id="berth-${pos}" class="berth ${t && t.id === selected ? 'selected' : ''} ${threats ? 'at-risk' : ''} ${struck ? 'struck' : ''}" data-pos="${pos}" aria-label="${esc(label + (struck ? ', hit this day' : ''))}" ${state.phase === 'over' ? 'disabled' : ''} ${t ? `aria-pressed="${t.id === selected}"` : ''}><span class="location">${quay(row)} ${col + 1}${pos === f.bonus ? '<span class="demand">High demand +1 sales</span>' : ''}</span><span aria-hidden="true" class="${t ? 'stall-art ' + (t.open ? '' : 'closed') : 'empty'}">${t ? '' : '+'}</span><strong>${t ? t.name : 'Empty'}</strong><span class="income"><small class="sales">${gross} sales - 1 supplies</small>${net} net if open${t && !t.open ? '<small class="sales">0 while closed</small>' : ''}</span><span class="hazards">${struck ? 'Hit today; ' : ''}${threats || 'Outside today\'s zones'}</span></button>`;
+    }).join('');
+    const t = state.stalls.find(t => t.id === selected);
+    const repairCost = state.phase === 'plan' ? 3 : 4;
+    $('actions').innerHTML = state.phase === 'over' ? '' : `<button id="repair" ${!t || t.open || state.cash < repairCost || (state.phase === 'plan' && state.actions < 1) ? 'disabled' : ''}>${state.phase === 'plan' ? 'Schedule reopening:' : 'Emergency reopen:'} ${t ? esc(t.name) : 'select a stall'} (${repairCost} coins${state.phase === 'plan' ? ', 1 action' : ''})</button>${state.phase === 'plan' ? `<button id="rescue" aria-describedby="rescue-eligibility" ${end.open || !state.actions || state.rescueUsed ? 'disabled' : ''}>${state.rescueUsed ? 'Rescue job used today' : 'Rescue job (+4 coins, 1 action)'}</button><p id="rescue-eligibility" class="action-note">Rescue: all three stalls must be closed; once per day, using one planning action.</p><p class="action-note">Scheduled reopening costs 3 coins, but exposes the stall to today\'s incident. Emergency reopening costs 4 coins after the incident.</p>` : ''}${t && !t.open && state.cash < repairCost ? `<p class="action-note">${esc(t.name)} needs ${repairCost - state.cash} more coin${repairCost - state.cash === 1 ? '' : 's'} to reopen in this phase.</p>` : ''}`;
+    $('forecast-title').textContent = state.phase === 'over' ? 'Final day forecast' : "Today's forecast";
+    $('forecast').innerHTML = B.events(f).map(e => `<div class="ticket"><span>${esc(e.label)}<br><small>${e.kind === 'calm' ? 'No incident' : e.kind === 'surge' ? 'Hits every open stall on this quay' : 'Hits open stalls in this lane on both quays'}</small></span><b>${e.weight} of 4</b></div>`).join('');
+    $('policies').innerHTML = [['none','Keep coins'],['surge','Surge cover'],['fault','Fault cover']].map(([value,label]) => `<button id="policy-${value}" data-policy="${value}" aria-pressed="${state.policy === value}" ${state.phase !== 'plan' ? 'disabled' : ''}>${label}<br>${value === 'none' ? '0 coins' : '2 coins'}</button>`).join('');
+    if (state.phase === 'plan') {
+      $('risk').innerHTML = p.affordable ? `<p><span class="risk-number">${percent(p.shortfall)}</span> chance you cannot reopen all stalls.</p><p>${p.available} coins remain after the premium, before the event. Income arrives later.</p>` : '<p>You cannot afford this premium. Choose no cover or keep two coins available.</p>';
+      $('risk-table').innerHTML = p.affordable ? '<p class="fine">All amounts are coins. Repairs use the 4-coin emergency price. A funding gap means available cash plus the claim cannot pay to reopen every stall before income.</p>' + p.outcomes.map(e => `<div class="risk-row"><strong>${esc(e.label)} (${percent(e.probability)})</strong>New damage ${e.bill}; existing repairs ${e.existingBill}; payout ${e.payout}; funding gap ${e.gap}.</div>`).join('') : '<p>Choose an affordable policy to calculate the funding gap.</p>';
+    } else {
+      $('risk').innerHTML = `<p>${state.phase === 'over' ? 'The week is complete.' : 'The event is revealed.'} The cash trail records the pre-event funding-gap chance for each completed day.</p>`;
+      $('risk-table').innerHTML = '<p>Open the cash trail after collecting income to compare the forecast with the draw.</p>';
+    }
+    $('event-panel').hidden = state.phase !== 'settle';
+    if (state.event) {
+      const e = state.event;
+      const claimText = state.policy === 'none' ? 'No cover selected: claim 0.' : e.kind !== state.policy ? 'This event is outside the selected cover: claim 0. The 2-coin premium is still paid.' : `Covered new damage ${e.bill} - deductible 2, floored at 0 and capped at 6 = claim ${e.payout}.`;
+      $('event-panel').innerHTML = `<h2 id="event-title" tabindex="-1">${esc(e.label)}</h2><p>${e.hitIds.length ? e.hitIds.map(id => esc(state.stalls[id].name)).join(', ') + ' took new damage. The board shows which stalls are still closed. Reopen each for 4 coins, or leave it closed.' : 'No new damage. Closed stalls from earlier days stay closed until repaired.'}</p><div class="cash-line"><span>Before market: ${e.cashBefore}</span><span>Premium: -${e.premium}</span><span>Claim: +${e.payout}</span><span>Emergency repairs paid: -${e.cashAfterClaim - state.cash}</span><span>Available now: ${state.cash}</span></div><p>New damage: ${e.bill} coins. Existing closures: ${e.preview.existingBill} coins to reopen. ${claimText}</p><p class="fine">The repair bill is a cost to reopen stalls, not a debt. Existing closures never generate another claim. Before the draw, this plan had a ${percent(e.preview.shortfall)} chance of a funding gap. One lucky or unlucky draw does not change those odds.</p>`;
+    }
+    $('turn-controls').hidden = state.phase === 'over';
+    document.documentElement.classList.toggle('turn-active', state.phase !== 'over');
+    $('advance').hidden = state.phase === 'over';
+    $('advance').disabled = state.phase === 'plan' && !p.affordable;
+    const collectionNet = state.stalls.reduce((total, stall) => total + (stall.open ? B.earnings(stall.pos, f) : 0), 0);
+    $('advance').textContent = state.phase === 'plan' ? `Open day ${state.day + 1} market` : `Collect ${counted(collectionNet, 'net coin')} and finish day`;
+    $('advance-note').textContent = state.phase === 'plan' ? 'Cover is paid when you open. Unused planning actions expire.' : state.phase === 'over' ? 'The six-day week is complete.' : `${collectionNet + end.open} sales - ${end.open} supplies = ${counted(collectionNet, 'net coin')} from ${counted(end.open, 'open stall')}. ` + (state.day === 5 ? 'Final collection: reopen any stalls you can before finishing the week.' : 'You may leave a stall closed and repair it on a later day.');
+    $('ending').hidden = state.phase !== 'over';
+    if (state.phase === 'over') $('ending').innerHTML = `<h2 id="ending-title" tabindex="-1">${end.lanterns ? 'Light the harbor.' : 'The market week is over.'}</h2><p>${end.cash} coins remain; ${end.open} of 3 stalls are open. ${end.lanterns ? 'You can fund the 18-coin lantern night with every stall trading.' : 'Lantern night needs 18 coins and all three stalls open. Try the same week again, or explore a new seed.'}</p><p>Seed: <strong>${esc(state.seed)}</strong>. These are game outcomes, not a measure of financial knowledge.</p><button id="replay" class="primary">Replay this week</button>`;
+    const completed = state.history.map((h, i) => `<article class="history-day"><h3>Day ${h.day}: ${esc(h.label)}</h3><p>Started planning with ${i ? state.history[i - 1].cashEnd : 6} coins. ${preparation(h.day)} Before market: ${h.cashBefore} coins.</p><p>${h.cashBefore} before market - ${h.premium} premium + ${h.payout} claim - ${h.repairs} emergency repairs + ${h.grossIncome} gross sales - ${h.supplies} supplies = <strong>${h.cashEnd} coins</strong>.</p><p>${h.open} stalls open: ${h.grossIncome} gross sales - ${h.supplies} supplies = ${h.income} net income. New damage bill: ${h.bill}. Pre-event funding-gap chance: ${percent(h.preview.shortfall)}.</p></article>`).join('');
+    const current = state.phase === 'over' ? '' : `<article class="history-day"><h3>Day ${state.day + 1}: ${state.phase === 'plan' ? 'preparing' : 'awaiting collection'}</h3><p>Started planning with ${state.history.length ? state.history[state.history.length - 1].cashEnd : 6} coins. ${preparation(state.day + 1)}</p><p>${state.phase === 'plan' ? 'Available now' : 'Before market'}: ${state.phase === 'plan' ? state.cash : state.event.cashBefore} coins. ${state.phase === 'plan' ? 'The selected premium has not been charged.' : `The event panel shows premium, claim and emergency repair spending. At collection, the current open stalls will bring ${collectionNet + end.open} gross sales - ${end.open} supplies = ${collectionNet} net coins.`}</p></article>`;
+    $('history').innerHTML = completed + current;
+    sizeTurnDock();
+    if (focusId) { const el = $(focusId); if (el && !el.disabled) el.focus(); else if (!$('advance').hidden && !$('advance').disabled) $('advance').focus(); else $('restart').focus(); }
+  }
+  function perform(action, message, focusId) {
+    try {
+      const before = state;
+      state = B.act(state, action); $('error').hidden = true;
+      if (before.phase === 'plan') {
+        const stall = before.stalls.find(t => t.id === action.id);
+        const detail = action.type === 'move' ? `${stall.name}: ${berthName(stall.pos)} to ${berthName(action.pos)} (-1 coin)` : action.type === 'repair' ? `${stall.name}: scheduled reopening (-3 coins)` : action.type === 'rescue' ? 'Rescue job (+4 coins)' : '';
+        if (detail) planningTrail.push({day: before.day + 1, text: detail});
+      }
+      if (action.type === 'collect') selected = null;
+      if (action.type === 'commit') {
+        focusId = 'event-title';
+        message = `${state.event.label}. ${counted(state.event.hitIds.length, 'stall')} took new damage. Claim ${counted(state.event.payout, 'coin')}; ${counted(state.cash, 'coin')} available for emergency repairs.`;
+      }
+      if (action.type === 'collect') {
+        const last = state.history[state.history.length - 1], end = B.outcome(state);
+        focusId = state.phase === 'over' ? 'ending-title' : 'board-title';
+        const collected = `${last.grossIncome} gross sales minus ${last.supplies} supplies: ${counted(last.income, 'net coin')} collected.`;
+        message = state.phase === 'over' ? `Week complete. ${collected} Cash remaining: ${counted(end.cash, 'coin')}; ${counted(end.open, 'stall')} open. ${end.lanterns ? 'Lantern night funded.' : 'Lantern goal not reached.'}` : `${collected} Day ${state.day + 1}: ${counted(state.cash, 'coin')}, ${counted(end.open, 'stall')} open, two planning actions. Read the new forecast.`;
+      }
+      render(focusId); notice(message);
+      if (action.type === 'commit') { $('event-panel').classList.remove('reveal'); void $('event-panel').offsetWidth; $('event-panel').classList.add('reveal'); }
+    } catch (error) { $('error').hidden = false; $('error').textContent = error.message; }
+  }
+  $('board').addEventListener('click', event => {
+    const button = event.target.closest('[data-pos]'); if (!button) return;
+    const pos = Number(button.dataset.pos), stall = state.stalls.find(t => t.pos === pos);
+    if (stall) { selected = stall.id; $('error').hidden = true; render('berth-' + pos); notice(stall.name + ' selected. ' + (stall.open ? state.phase === 'plan' ? state.actions ? 'Choose an empty berth to move.' : 'Both planning actions are used. Choose cover and open the market.' : 'This stall will earn at collection. Moving is only available during planning.' : state.phase === 'plan' ? 'Scheduled reopening costs three coins and one action; the stall can be hit again today.' : 'Emergency reopening costs four coins.')); }
+    else if (selected !== null && state.phase === 'plan') perform({type:'move', id:selected, pos}, 'Stall moved. Forecast and funding risk updated.', 'berth-' + pos);
+    else { notice(state.phase === 'settle' ? 'Select a closed stall to reopen it. Moving is only available during planning.' : 'Select a stall before choosing an empty berth.'); }
+  });
+  $('policies').addEventListener('click', event => {
+    const b = event.target.closest('[data-policy]'); if (b) perform({type:'policy', value:b.dataset.policy}, 'Cover changed. No premium is charged until the market opens.', b.id);
+  });
+  $('actions').addEventListener('click', event => {
+    if (event.target.id === 'repair') perform({type:'repair', id:selected}, state.phase === 'plan' ? 'Scheduled reopening paid: three coins and one action. The stall can be hit again by today\'s incident.' : 'Emergency reopening paid: four coins. The stall will earn when you collect income.', selected === null ? 'advance' : 'berth-' + state.stalls[selected].pos);
+    if (event.target.id === 'rescue') perform({type:'rescue'}, 'Rescue job complete: four coins added. Select a closed stall and reopen it.', 'berth-' + state.stalls[0].pos);
+  });
+  $('advance').addEventListener('click', () => perform({type:state.phase === 'plan' ? 'commit' : 'collect'}, state.phase === 'plan' ? 'Event revealed. Review the repair bill before collecting income.' : 'Income collected. The cash trail has been updated.', 'advance'));
+  function openNew() { $('seed').value = state.seed; $('seed').setCustomValidity(''); $('cancel-new').textContent = state.phase === 'over' ? 'Keep this result' : 'Keep playing'; $('new-dialog').showModal(); }
+  $('restart').addEventListener('click', openNew);
+  $('ending').addEventListener('click', event => { if (event.target.id === 'replay') openNew(); });
+  $('cancel-new').addEventListener('click', () => $('new-dialog').close());
+  $('random-seed').addEventListener('click', () => {
+    const words = new Uint32Array(1); crypto.getRandomValues(words);
+    $('seed').value = 'HARBOR-' + words[0].toString(36).toUpperCase(); $('seed').setCustomValidity(''); $('seed').focus();
+  });
+  $('new-form').addEventListener('submit', event => {
+    event.preventDefault();
+    try { state = B.initial($('seed').value.trim()); selected = null; planningTrail = []; $('new-dialog').close(); $('error').hidden = true; render('board-title'); notice('A fresh six-day market. Read the forecast and make your first move.'); }
+    catch (error) { $('seed').setCustomValidity(error.message); $('seed').reportValidity(); }
+  });
+  $('seed').addEventListener('input', () => $('seed').setCustomValidity(''));
+  window.addEventListener('resize', sizeTurnDock);
+  document.addEventListener('focusin', keepFocusAboveDock);
+  if (window.ResizeObserver) new ResizeObserver(sizeTurnDock).observe($('turn-controls'));
+  render(); $('boot').hidden = true; $('restart').disabled = false; notice('Day 1: two planning actions. You can also open without moving.');
+})();
+</script></body></html>

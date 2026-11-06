@@ -1,0 +1,46 @@
+{
+  "index.html": {
+    "bytes": 43390,
+    "sha256": "914c7bb0bcd7cc99a5d6685c7d3f1967c465e99e945a2e9ecf135f24a63c690c"
+  },
+  "SOURCE_NOTES.md": {
+    "bytes": 2743,
+    "sha256": "b16ef887bb7b52f33850cb4d180a548d4d588be0b33dc0cbd38bdb9ab992460d"
+  },
+  "VERIFICATION.md": {
+    "bytes": 8593,
+    "sha256": "2ff55a3f738e79de663921580edac569f3a296c3e5380a3ee06536ff88e918bb"
+  },
+  "RULES_FREEZE.md": {
+    "bytes": 2790,
+    "sha256": "1375bd30337f71b3a8ea61fc0ba8d925797c6c50f2af6d7452408c404e7183fc"
+  },
+  "RULES_PRE_RUN_REVISION.md": {
+    "bytes": 1568,
+    "sha256": "5aad04b9d164b3fe1be42b57efe4cf1605d7abc50dcaec368771fc18fabcef1d"
+  },
+  "RULES_V2.md": {
+    "bytes": 2576,
+    "sha256": "7c479a844813e463f9c71499233a04501f9fb51a65ce7e6e0fc3c563dfe07b70"
+  },
+  "RULES_V3.md": {
+    "bytes": 3597,
+    "sha256": "13449b314ac399c95de1ecc78e694c98700a3c81de42656166237f3c355c4ade"
+  },
+  "EVALUATION_DRAFT.md": {
+    "bytes": 8969,
+    "sha256": "a74973686e15c71040c12347b38d427ca07f26cb7b12cd2f0fd983bacce44ce2"
+  },
+  "GAMEPLAY_DIAGNOSTIC_FREEZE.md": {
+    "bytes": 3117,
+    "sha256": "d6740d3328136eb6262b7ea182257407c9704a55e1cdbfeabf1ac2f74a9fa1aa"
+  },
+  "V3_DIAGNOSTIC_CRITERIA_FREEZE.md": {
+    "bytes": 5352,
+    "sha256": "7fcd65cc37901b382b91dde8ecd0ecb0bad7afdababf145caaf5633834ead09b"
+  },
+  "STRUCTURAL_CHECK_V3_CONTRACT.md": {
+    "bytes": 5361,
+    "sha256": "3ad9305bf187e4397a4e2cf6676bd380b4c8dae279ef70ce495bee5d81181050"
+  }
+}

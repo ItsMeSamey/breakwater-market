@@ -1,0 +1,1322 @@
+[
+  {
+    "positions": [
+      0,
+      1,
+      2
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 2,
+    "minimumStrongSafeMoves": 2
+  },
+  {
+    "positions": [
+      0,
+      1,
+      2
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 2,
+    "minimumStrongSafeMoves": 2
+  },
+  {
+    "positions": [
+      0,
+      1,
+      2
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 2,
+    "minimumStrongSafeMoves": 2
+  },
+  {
+    "positions": [
+      0,
+      1,
+      2
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      1,
+      2
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      1,
+      2
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      1,
+      3
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      3
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      3
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      3
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      3
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      3
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      4
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      4
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      4
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      4
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      4
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      4
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      1,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      1,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      1,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      2,
+      3
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      3
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      3
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      3
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      3
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      3
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      4
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      4
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      4
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      4
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      2,
+      4
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      2,
+      4
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      2,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      2,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      0,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      0,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      3
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      3
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      3
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      3
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      1,
+      2,
+      3
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      1,
+      2,
+      3
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      1,
+      2,
+      4
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      4
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      4
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      4
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      4
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      4
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      2,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      1,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      1,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      1,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      1,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      2,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      2,
+      3,
+      4
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      2,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      4
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      3,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      2,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 1,
+    "minimumStrongSafeMoves": 1
+  },
+  {
+    "positions": [
+      3,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 0,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      3,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 1,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      3,
+      4,
+      5
+    ],
+    "row": 0,
+    "col": 2,
+    "minimumSafeMoves": 0,
+    "minimumStrongSafeMoves": 0
+  },
+  {
+    "positions": [
+      3,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 0,
+    "minimumSafeMoves": 2,
+    "minimumStrongSafeMoves": 2
+  },
+  {
+    "positions": [
+      3,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 1,
+    "minimumSafeMoves": 2,
+    "minimumStrongSafeMoves": 2
+  },
+  {
+    "positions": [
+      3,
+      4,
+      5
+    ],
+    "row": 1,
+    "col": 2,
+    "minimumSafeMoves": 2,
+    "minimumStrongSafeMoves": 2
+  }
+]

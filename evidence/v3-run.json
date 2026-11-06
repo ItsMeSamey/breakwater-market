@@ -1,0 +1,28 @@
+{
+  "preview_identical_to_v1": true,
+  "preview_sha256": "a9816be0b246ffca892da0a1ec70b9856bdf573d73307320417622e503fca21a",
+  "source_pins": {
+    "core.js": "267ee92934874296713becfb19311699248ab0fc492baac9a86965a207da1071",
+    "tests/core.test.cjs": "b5d30c462a1374e895a06ca252fe79d50c84c5a5927393ad429ece6d8eda79ca",
+    "tests/gameplay-diagnostic-v3.cjs": "0309f5642fd4afe995eaf37686a3e87adecb1333ddef840aa808e90c4c3fc15f",
+    "RULES_V3.md": "13449b314ac399c95de1ecc78e694c98700a3c81de42656166237f3c355c4ade",
+    "V3_DIAGNOSTIC_CRITERIA_FREEZE.md": "7fcd65cc37901b382b91dde8ecd0ecb0bad7afdababf145caaf5633834ead09b"
+  },
+  "steps": [
+    {
+      "label": "v3-core-tests",
+      "exit_code": 0,
+      "wall_seconds": 1.0657901510130614
+    },
+    {
+      "label": "v3-development",
+      "exit_code": 0,
+      "wall_seconds": 1.1147263490129262
+    },
+    {
+      "label": "v3-qualification",
+      "exit_code": 0,
+      "wall_seconds": 0.9645391360390931
+    }
+  ]
+}

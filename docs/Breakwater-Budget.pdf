@@ -1,0 +1,206 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [5 0 R 7 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3239 >>
+stream
+BT
+14 TL
+54 780 Td
+/F2 11 Tf
+(Breakwater Market) Tj
+T*
+/F2 11 Tf
+(Prototype budget and scope note) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Prepared November 6, 2026. Currency: USD. This budget describes the prototype candidate) Tj
+T*
+/F1 10 Tf
+(and possible later work. Any development award, milestone contract, revenue share or) Tj
+T*
+/F1 10 Tf
+(future spending would require a separate agreement.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Recorded project purchases) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Game runtime and build dependency purchases: $0. The game uses HTML, CSS and JavaScript) Tj
+T*
+/F1 10 Tf
+(with embedded styles and scripts.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Art, music and licensed asset purchases: $0. The interface uses original CSS shapes, and) Tj
+T*
+/F1 10 Tf
+(the game is silent.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Game-runtime API and hosting purchases: $0. The game runs locally. Current testing uses) Tj
+T*
+/F1 10 Tf
+(existing local equipment.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Additional equipment or software purchases: $0. Existing equipment and available) Tj
+T*
+/F1 10 Tf
+(software entitlements were used. Those resources have their own historical costs.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Total recorded project purchases: $0. Existing development-tool and model usage,) Tj
+T*
+/F1 10 Tf
+(compute, and hardware costs are unallocated here.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(Developer and review time remains unbilled. Human playtesting is future work.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Possible next work) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(The following are planning estimates only. Participation arrangements, external review) Tj
+T*
+/F1 10 Tf
+(costs and any funding request would be settled in a separate agreement.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(- Human playtesting and onboarding review: arrange a small consent-based session, record) Tj
+T*
+/F1 10 Tf
+(task completion and points of confusion, and revise the instructions from those) Tj
+T*
+/F1 10 Tf
+(observations. Estimated implementation/analysis effort: 8 to 16 hours. Recruitment) Tj
+T*
+/F1 10 Tf
+(method, participation and compensation remain to be arranged.) Tj
+T*
+/F1 10 Tf
+(- Accessibility review with assistive-technology users: test screen-reader) Tj
+T*
+/F1 10 Tf
+(announcements, focus order and narrow layouts. Estimated preparation/fix effort: 6 to 12) Tj
+T*
+/F1 10 Tf
+(hours. Specialist participation and compensation would need separate agreement.) Tj
+T*
+/F1 10 Tf
+(- One additional scenario structure: prototype and independently check a new publicly) Tj
+T*
+/F1 10 Tf
+(disclosed incident pattern, then test whether it creates a comprehensible decision.) Tj
+T*
+/F1 10 Tf
+(Estimated development effort: 8 to 16 hours, using the existing game tools.) Tj
+T*
+/F1 10 Tf
+(- Language adaptation: obtain fluent review of translated game text and financial) Tj
+T*
+/F1 10 Tf
+(examples before adding a language. Scope, hours and price depend on the reviewer and) Tj
+T*
+/F1 10 Tf
+(language.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F2 11 Tf
+(Delivery scope) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 10 Tf
+(The reviewable deliverables are a downloadable standalone HTML build, readable source,) Tj
+T*
+ET
+BT /F1 9 Tf 54 38 Td (Breakwater Market | Page 1 of 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 290 >>
+stream
+BT
+14 TL
+54 780 Td
+/F1 10 Tf
+(reproducible tests and evidence, screenshots, a design-document PDF and this budget PDF.) Tj
+T*
+/F1 10 Tf
+(Publication and entry status are tracked separately from these local deliverables.) Tj
+T*
+ET
+BT /F1 9 Tf 54 38 Td (Breakwater Market | Page 2 of 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000000272 00000 n 
+0000000408 00000 n 
+0000003699 00000 n 
+0000003835 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4176
+%%EOF

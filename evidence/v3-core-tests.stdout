@@ -1,0 +1,20 @@
+✔ zero cash and three closed stalls can recover production without debt (7.586435ms)
+✔ closed stalls cannot generate repeat claims and still need repair funds (0.229538ms)
+✔ invalid actions leave input unchanged and spending is bounded (1.038309ms)
+✔ planning cannot produce unlimited actions or reuse a committed market (0.292986ms)
+✔ insurance boundaries, exclusions and premiums are explicit (0.145337ms)
+✔ preview depends only on current public inputs and is immutable (0.196865ms)
+✔ six-day sequence is deterministic, has exact cash trails and terminates (6.403963ms)
+✔ event sequence is independent of planning actions (0.927956ms)
+✔ seed validation and unavailable operations fail clearly (0.228478ms)
+✔ v2 scheduled repair costs three and exposes the stall; emergency repair costs four (0.271082ms)
+✔ v2 rescue cannot repeat today but resets for the next planning phase (0.23245ms)
+✔ v3 supplies are paid only from open-stall sales and never create debt (0.22604ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 155.610241

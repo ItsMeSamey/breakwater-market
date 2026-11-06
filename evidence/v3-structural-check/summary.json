@@ -1,0 +1,283 @@
+{
+  "status": "complete",
+  "seal": {
+    "scope": "Exact all-open relocation and one-day coverage tradeoff; no gameplay change.",
+    "structuralCases": 3600,
+    "economicCases": 6480,
+    "structuralInputsSha256": "2bb708d2f3345262ee7e96f6bec74ae406d976d68c9e361f4ac503b2fca181fa",
+    "economicInputsSha256": "bc9b46c5b0978e8841fc17f02622df8408c4300a723b01df83b3f2d9626efe6d",
+    "sourcePins": {
+      "tests/structural-v3.py": "c8836deada0f894ece4e8513049cb8b6c0652afa0cb121c6ab42c9ef5d3749c8",
+      "STRUCTURAL_CHECK_V3_CONTRACT.md": "3ad9305bf187e4397a4e2cf6676bd380b4c8dae279ef70ce495bee5d81181050",
+      "core.js": "267ee92934874296713becfb19311699248ab0fc492baac9a86965a207da1071",
+      "RULES_V3.md": "13449b314ac399c95de1ecc78e694c98700a3c81de42656166237f3c355c4ade"
+    }
+  },
+  "structuralCases": 3600,
+  "economicCases": 6480,
+  "maximumMinimumSafeMoves": 2,
+  "maximumMinimumStrongSafeMoves": 2,
+  "geometryDistanceCounts": {
+    "0": 24,
+    "1": 90,
+    "2": 6
+  },
+  "initialCashSixFullActionsAlwaysFunded": true,
+  "safeCoveragePathwiseChecks": 155520,
+  "lateStayFundingChecks": 4320,
+  "economicComparisonCases": 5076,
+  "stayCoverBetterThanBestSafe": 387,
+  "stayCoverEqualToBestSafe": 9,
+  "stayCoverWorseThanBestSafe": 4680,
+  "initialExample": {
+    "case": {
+      "positions": [
+        0,
+        1,
+        5
+      ],
+      "row": 0,
+      "col": 1,
+      "bonus": 1,
+      "cash": 6,
+      "actions": 2
+    },
+    "comparison": {
+      "input": {
+        "positions": [
+          0,
+          1,
+          5
+        ],
+        "row": 0,
+        "col": 1,
+        "bonus": 1,
+        "cash": 6,
+        "actions": 2
+      },
+      "bestSafeNoCover": {
+        "target": [
+          0,
+          3,
+          5
+        ],
+        "moves": 1,
+        "policy": "none",
+        "expectedCash": 8.0,
+        "expectedOpen": 3.0,
+        "shortfall": 0,
+        "finalDayGoalProbability": 0,
+        "expectedWealth": 20.0
+      },
+      "safeMaximumTies": 2,
+      "bestStayCover": {
+        "target": [
+          0,
+          1,
+          5
+        ],
+        "moves": 0,
+        "policy": "surge",
+        "expectedCash": 8.5,
+        "expectedOpen": 3.0,
+        "shortfall": 0,
+        "finalDayGoalProbability": 0,
+        "expectedWealth": 20.5
+      },
+      "coverMaximumTies": 1,
+      "stayNoCover": {
+        "target": [
+          0,
+          1,
+          5
+        ],
+        "moves": 0,
+        "policy": "none",
+        "expectedCash": 9.5,
+        "expectedOpen": 2.75,
+        "shortfall": 0.25,
+        "finalDayGoalProbability": 0,
+        "expectedWealth": 20.5
+      },
+      "bestOverall": {
+        "target": [
+          0,
+          1,
+          5
+        ],
+        "moves": 0,
+        "policy": "surge",
+        "expectedCash": 8.5,
+        "expectedOpen": 3.0,
+        "shortfall": 0,
+        "finalDayGoalProbability": 0,
+        "expectedWealth": 20.5
+      },
+      "overallMaximumTies": 2,
+      "stayCoverMinusSafeWealth": 0.5
+    },
+    "staySurge": {
+      "target": [
+        0,
+        1,
+        5
+      ],
+      "moves": 0,
+      "policy": "surge",
+      "expectedCash": 8.5,
+      "expectedOpen": 3.0,
+      "shortfall": 0,
+      "finalDayGoalProbability": 0,
+      "expectedWealth": 20.5,
+      "events": [
+        {
+          "kind": "calm",
+          "probability": 0.5,
+          "bill": 0,
+          "payout": 0,
+          "fundsBeforeRepair": 4,
+          "gap": 0,
+          "cash": 10,
+          "open": 3,
+          "goal": false
+        },
+        {
+          "kind": "surge",
+          "probability": 0.25,
+          "bill": 8,
+          "payout": 6,
+          "fundsBeforeRepair": 10,
+          "gap": 0,
+          "cash": 8,
+          "open": 3,
+          "goal": false
+        },
+        {
+          "kind": "fault",
+          "probability": 0.25,
+          "bill": 4,
+          "payout": 0,
+          "fundsBeforeRepair": 4,
+          "gap": 0,
+          "cash": 6,
+          "open": 3,
+          "goal": false
+        }
+      ]
+    }
+  },
+  "finalDayExample": {
+    "case": {
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "row": 0,
+      "col": 0,
+      "bonus": 3,
+      "cash": 20,
+      "actions": 2
+    },
+    "none": {
+      "target": [
+        0,
+        1,
+        2
+      ],
+      "moves": 0,
+      "policy": "none",
+      "expectedCash": 22.0,
+      "expectedOpen": 3.0,
+      "shortfall": 0,
+      "finalDayGoalProbability": 0.75,
+      "expectedWealth": 34.0,
+      "events": [
+        {
+          "kind": "calm",
+          "probability": 0.5,
+          "bill": 0,
+          "payout": 0,
+          "fundsBeforeRepair": 20,
+          "gap": 0,
+          "cash": 26,
+          "open": 3,
+          "goal": true
+        },
+        {
+          "kind": "surge",
+          "probability": 0.25,
+          "bill": 12,
+          "payout": 0,
+          "fundsBeforeRepair": 20,
+          "gap": 0,
+          "cash": 14,
+          "open": 3,
+          "goal": false
+        },
+        {
+          "kind": "fault",
+          "probability": 0.25,
+          "bill": 4,
+          "payout": 0,
+          "fundsBeforeRepair": 20,
+          "gap": 0,
+          "cash": 22,
+          "open": 3,
+          "goal": true
+        }
+      ]
+    },
+    "surge": {
+      "target": [
+        0,
+        1,
+        2
+      ],
+      "moves": 0,
+      "policy": "surge",
+      "expectedCash": 21.5,
+      "expectedOpen": 3.0,
+      "shortfall": 0,
+      "finalDayGoalProbability": 1.0,
+      "expectedWealth": 33.5,
+      "events": [
+        {
+          "kind": "calm",
+          "probability": 0.5,
+          "bill": 0,
+          "payout": 0,
+          "fundsBeforeRepair": 18,
+          "gap": 0,
+          "cash": 24,
+          "open": 3,
+          "goal": true
+        },
+        {
+          "kind": "surge",
+          "probability": 0.25,
+          "bill": 12,
+          "payout": 6,
+          "fundsBeforeRepair": 24,
+          "gap": 0,
+          "cash": 18,
+          "open": 3,
+          "goal": true
+        },
+        {
+          "kind": "fault",
+          "probability": 0.25,
+          "bill": 4,
+          "payout": 0,
+          "fundsBeforeRepair": 18,
+          "gap": 0,
+          "cash": 20,
+          "open": 3,
+          "goal": true
+        }
+      ]
+    }
+  },
+  "limits": "All currently open stalls; finite structural and one-day objective analysis. Not a six-day dominance, player-benefit or fun result.",
+  "seconds": 1.8645032570348121
+}

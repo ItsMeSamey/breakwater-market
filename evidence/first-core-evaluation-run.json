@@ -1,0 +1,30 @@
+{
+  "source_pins": {
+    "core.js": "46aa0312ddf78f8aff28fb4b79c5d16002a354eeefa7ce7298ff16f810c171db",
+    "tests/core.test.cjs": "699fad467125b855294b95db7ab6466f593675a29309b1f9d9c19f0494746eca",
+    "tests/preview-evaluation.cjs": "19897a969e82103140f0e28dfb52bc1e1b887d8ee23040b070973677051fb411",
+    "EVALUATION_DRAFT.md": "a74973686e15c71040c12347b38d427ca07f26cb7b12cd2f0fd983bacce44ce2",
+    "RULES_PRE_RUN_REVISION.md": "5aad04b9d164b3fe1be42b57efe4cf1605d7abc50dcaec368771fc18fabcef1d"
+  },
+  "steps": [
+    {
+      "label": "core-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/core.test.cjs"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 4.0533720149542205
+    },
+    {
+      "label": "preview-evaluation",
+      "command": [
+        "node",
+        "tests/preview-evaluation.cjs"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.8304102260153741
+    }
+  ]
+}
